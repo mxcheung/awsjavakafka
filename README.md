@@ -13,6 +13,8 @@ alternatives --config java
 
 # install kafka
 
+https://dzone.com/articles/installing-and-running-kafka-on-an-aws-instance
+
 # install git
 
 #Create an EC2 instance with Amazon Linux 2 with internet access
