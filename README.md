@@ -7,6 +7,8 @@ sudo amazon-linux-extras install java-openjdk11
 
 sudo yum install java-1.8.0-openjdk
 
+alternatives --config java
+
 # install maven
 
 # install kafka
