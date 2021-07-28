@@ -1,0 +1,4 @@
+requests
+certifi
+kafka-python
+confluent-kafka[avro,json,protobuf]>=1.4.2
