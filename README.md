@@ -35,6 +35,8 @@ sudo yum install git -y
 
 #Check git ver
 
+# install docker
+
 https://techexpert.tips/apache-kafka/apache-kafka-installation-on-the-cloud-aws-ec2/
 
 
