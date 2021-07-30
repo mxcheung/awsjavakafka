@@ -22,6 +22,10 @@ https://gist.github.com/sebsto/19b99f1fa1f32cae5d00
 
 https://dzone.com/articles/installing-and-running-kafka-on-an-aws-instance
 
+# install confluent platform
+
+https://dzone.com/articles/installing-and-configuring-confluent-platform-kafk
+
 # install git
 
 #Create an EC2 instance with Amazon Linux 2 with internet access
