@@ -24,6 +24,7 @@ https://dzone.com/articles/installing-and-running-kafka-on-an-aws-instance
 
 # install confluent platform
 https://www.baeldung.com/kafka-connectors-guide
+
 https://docs.confluent.io/kafka-connect-s3-sink/current/overview.html
 
 https://dzone.com/articles/installing-and-configuring-confluent-platform-kafk
