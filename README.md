@@ -42,6 +42,10 @@ sudo yum install git -y
 
 #Check git ver
 
+# install python and kafka-python
+https://github.com/dpkp/kafka-python
+https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-python3-boto3/
+
 # install docker
 
 https://techexpert.tips/apache-kafka/apache-kafka-installation-on-the-cloud-aws-ec2/
