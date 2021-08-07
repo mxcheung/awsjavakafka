@@ -46,6 +46,7 @@ sudo yum install git -y
 https://github.com/dpkp/kafka-python
 https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-python3-boto3/
 https://towardsdatascience.com/3-libraries-you-should-know-to-master-apache-kafka-in-python-c95fdf8700f2
+https://github.com/confluentinc/confluent-kafka-python
 
 # Kafka — Idempotent Producer And Consumer
 https://medium.com/@shesh.soft/kafka-idempotent-producer-and-consumer-25c52402ceb9
