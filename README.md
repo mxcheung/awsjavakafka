@@ -46,6 +46,10 @@ sudo yum install git -y
 https://github.com/dpkp/kafka-python
 https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-python3-boto3/
 
+# Kafka — Idempotent Producer And Consumer
+https://medium.com/@shesh.soft/kafka-idempotent-producer-and-consumer-25c52402ceb9
+
+
 # install docker
 
 https://techexpert.tips/apache-kafka/apache-kafka-installation-on-the-cloud-aws-ec2/
