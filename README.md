@@ -51,6 +51,9 @@ https://github.com/confluentinc/confluent-kafka-python
 # Kafka — Idempotent Producer And Consumer
 https://medium.com/@shesh.soft/kafka-idempotent-producer-and-consumer-25c52402ceb9
 
+# Kafka  ssl
+%3|1628927601.348|FAIL|rdkafka#consumer-1| [thrd:ssl://xyz:9093/bootstrap]: ssl://xyz:9093/bootstrap: SSL handshake failed: error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed: broker certificate could not be verified, verify that ssl.ca.location is correctly configured or root CA certificates are installed (install ca-certificates package) (after 9ms in state SSL_HANDSHAKE, 1 identical error(s) suppressed)
+
 
 # install docker
 
