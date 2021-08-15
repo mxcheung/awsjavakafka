@@ -58,6 +58,7 @@ impl.KafkaException: KafkaError{code=_INVALID_ARG,val=-186,str="Java TrustStores
 
 https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/c.html
 https://github.com/strimzi/strimzi-kafka-operator/issues/3036
+https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/20.0.x?topic=emitter-preparing-ssl-certificates-kafka
 
 # install docker
 
