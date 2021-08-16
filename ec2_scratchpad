@@ -7,3 +7,7 @@ bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --boots
 
 openssl s_client -debug -connect 172.31.46.108:9093 -tls1_2
 verify error:num=19:self signed certificate in certificate chain
+
+
+openssl req -new -newkey rsa:4096 -days 36500 -x509 -subj "/CN=xxxxxxxxxxxxx-CA" -keyout ca-key -out ca-cert -nodes
+keytool -keystore kafka.server.keystore.jks -alias localhost -validity 36500 -genkey -keyalg RSA -storepass $SRVPASS -keypass $SRVPASS -dname "CN=xyz" -storetype pkcs12 -ext SAN=DNS:xyz
