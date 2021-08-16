@@ -3,6 +3,7 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
 
 cd ~/kafka_2.13-2.8.0/
+
 bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server 172.31.46.108:9093 --consumer.config config/client-ssl.properties
 
 openssl s_client -debug -connect 172.31.46.108:9093 -tls1_2
@@ -13,3 +14,10 @@ openssl req -new -newkey rsa:4096 -days 36500 -x509 -subj "/CN=xxxxxxxxxxxxx-CA"
 
 -- Create Kafka broker certificate
 keytool -keystore kafka.server.keystore.jks -alias localhost -validity 36500 -genkey -keyalg RSA -storepass $SRVPASS -keypass $SRVPASS -dname "CN=xyz" -storetype pkcs12 -ext SAN=DNS:xyz
+
+
+https://confluence.atlassian.com/doc/running-confluence-over-ssl-or-https-161203.html#RunningConfluenceOverSSLorHTTPS-Option2:UseacertificateissuedbyaCertificateAuthority(recommended)
+
+Self-signed certificates are useful if you require encryption but don't need to verify the identity of the requesting website. In general, you might use a self-signed certificate on a test environment and on internal corporate networks (intranets).
+
+Because the certificate is not signed by a certificate authority (CA), users may receive a message that the site is not trusted and may have to perform several steps to accept the certificate before they can access the site. This usually will only occur the first time they access the site. Users won't be able to log in to your site at all via the Confluence Server mobile app if you use a self-signed certificate. 
