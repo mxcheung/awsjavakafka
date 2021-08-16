@@ -4,3 +4,5 @@ bin/kafka-server-start.sh config/server.properties
 
 cd ~/kafka_2.13-2.8.0/
 bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server 172.31.46.108:9093 --consumer.config config/client-ssl.properties
+
+openssl s_client -debug -connect 172.31.46.108:9093 -tls1_2
