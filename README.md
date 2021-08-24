@@ -44,8 +44,11 @@ sudo yum install git -y
 
 # install python and kafka-python
 https://github.com/dpkp/kafka-python
+
 https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-python3-boto3/
+
 https://towardsdatascience.com/3-libraries-you-should-know-to-master-apache-kafka-in-python-c95fdf8700f2
+
 https://github.com/confluentinc/confluent-kafka-python
 
 # Kafka — Idempotent Producer And Consumer
@@ -57,8 +60,11 @@ https://medium.com/@shesh.soft/kafka-idempotent-producer-and-consumer-25c52402ce
 impl.KafkaException: KafkaError{code=_INVALID_ARG,val=-186,str="Java TrustStores are not supported, use `ssl.ca.location` and a certificate file instead. See https://github.com/edenhill/librdkafka/wiki/Using-SSL-with-librdkafka for more information."}
 
 https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/c.html
+
 https://github.com/strimzi/strimzi-kafka-operator/issues/3036
+
 https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/20.0.x?topic=emitter-preparing-ssl-certificates-kafka
+
 https://dev.to/adityakanekar/connecting-to-kafka-cluster-using-ssl-with-python-k2e
 
 # install docker
