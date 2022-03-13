@@ -31,6 +31,10 @@ https://dzone.com/articles/installing-and-configuring-confluent-platform-kafk
 
 wget https://packages.confluent.io/archive/7.0/confluent-7.0.0.tar.gz
 
+export CONFLUENT_HOME=/home/ssm-user/confluent-7.0.0
+export PATH=$PATH:$CONFLUENT_HOME/bin
+confluent local services kafka start
+
 
 # install git
 
