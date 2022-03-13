@@ -29,6 +29,9 @@ https://docs.confluent.io/kafka-connect-s3-sink/current/overview.html
 
 https://dzone.com/articles/installing-and-configuring-confluent-platform-kafk
 
+wget https://packages.confluent.io/archive/7.0/confluent-7.0.0.tar.gz
+
+
 # install git
 
 #Create an EC2 instance with Amazon Linux 2 with internet access
